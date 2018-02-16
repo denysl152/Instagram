@@ -1,0 +1,297 @@
+[class*="col-"],
+body {
+    height: 100%;
+    margin: 0;
+}
+.logo {
+  margin-left:40%;
+  border-bottom:1px ;
+}
+.profil {
+height:140px;
+width:130px;
+margin-left:20%;
+border-radius:50%;
+margin-top:50px;
+}
+.content{
+  justify-content:space-around; 
+  margin-left:17%;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+font-weight:normal;
+  margin-left:0%;
+}
+.verified {
+  margin-left:20%;
+}
+#follow {
+margin-left:20%;
+}
+.picture {
+height:320px;
+width:290px;
+justify-content:space-around;
+flex-wrap:wrap;
+}
+.form-control {
+  height:30px;
+  margin-left:30%;
+  background-image:url("../images/search_opt.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding:8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.picture {
+  opacity: 0.9;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#Loadm {
+margin-top:50px;
+margin-left:40%;
+}
+
+.overlay {
+    min-height : 100 vw ;
+    min-width : 100 vh ;
+    background-color: rgba ( 0 , 0 , 0 , .75 );
+    position : fixed ;
+    display : none ;
+    z-index: 99 ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.modal {
+    width : 74% ;
+    height: 82% ;
+    background-color:white;
+    position : fixed ;
+    display : flex ;
+}
+
+.modal-left {
+    width : 65% ;
+    height : 100% ;
+}
+
+.image-selector {
+    width:100% ;
+    height:100% ;
+}
+
+.fa-fois {
+    position : fixed ;
+    top: 0;
+    right: 0;
+    color:white;
+    /* font-size:12px; */
+    cursor:pointer;
+    margin-right:10px;
+    margin-top:10px ;
+}
+
+.modal-right {
+    width:35% ;
+    height:100% ;
+}
+
+.modal-right-container {
+    width:287px ;
+    height:100% ;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+
+.modal-right-header {
+    padding:20px 0px ;
+    border-bottom : 1px  solid  #efefef ;
+    display:flex;
+}
+
+.little-img {
+    width: 38px ;
+    height : 38px ;
+    display: flex ;
+    align-self:center;
+    margin-right: 10px ;
+}
+
+.btn-modal {
+    margin-left:46px ;
+    top: 0 ;
+}
+
+.modal-right-content-header {
+    display: flex ;
+    justify-content : space-between ;
+}
+
+.comments {
+    height : 353px ;
+}
+
+.add-commentaire {
+    min-height : 68px ;
+    display: flex ;
+    justify-content : space-between ;
+    align-items : center ;
+    border-top : 1px  solid  #efefef ;
+}
+
+.fa-coeur-o {
+    font-size: 24px ;
+}
+
+.input-modal {
+    border : none;
+    width : 200px ;
+    font-size:15px ;
+    line-height :18px ;
+    border:none;
+}
+
+.points3-modal {
+  margin-top : 0 ;
+}
+
+ul {
+    margin: 0 ;
+}
+
+li {
+    margin : 4px  0px ;
+}
+
+.comment-modal {
+    list-style-type : none ;
+    margin-left:-39px ;
+}

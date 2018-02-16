@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barack Obama</title>
+    <link rel="stylesheet" href="insta.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+<link rel="icon" type="images/jpeg" href="images/favicon.jpg" />
+
+</head>
+<body>
+
+<div id="container">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <img class="logo" src="images/img11_opt.png">
+    </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      </ul>
+      <form class="left">
+      <button type="button" class="btn btn-info">Get App</button>
+       <button type="button" class="btn btn-link"><a href="Signup.html">Sign up</a></button>
+       <button type="button" class="btn btn-link">Log in</button>
+      </form>
+    </div>
+  </nav>
+     <form class="content">
+       <table>
+          <tr><td><img class="profil" src="images/barack obama.jpg"></td>
+            <td><h1>barackobama</h1></td>
+            <td><img class="verified" src="images/verifier_.jpg" alt="profil verifié"></td>
+            <td><button type="button"  id="follow" class="btn btn-info">Follow</button></td></tr>
+          <div class="information">
+          	<tr><td><article class="actual"><strong>239</strong> posts</article></td>
+          	<td><article class=""><strong>16.1m</strong> followers</article>
+          	<td><article><strong>14</strong> following</article>
+          	</tr>
+          	<tr><td><p><strong>Barack Obama</strong> Dad,husband,President,citizen.<strong><a href="https://www.obama.org/."><strong> www.obama.org</a></p></td>
+
+          	</tr>
+			</div>
+
+       </table>
+
+
+<div class="row">
+  <div class="column">
+    <img src="images/obama1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="picture">
+  </div>
+  <div class="column">
+    <img src="images/obama2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="picture">
+  </div>
+  <div class="column">
+    <img src="images/obama3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="picture">
+  </div>
+  <div class="column">
+    <img src="images/obama4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="picture">
+  </div>
+    <div class="column">
+    <img src="images/obma5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="picture">
+  </div>
+  <div class="column">
+    <img src="images/obama6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="picture">
+  </div>
+  <div class="column">
+    <img src="images/obama7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="picture">
+  </div>
+  <div class="column">
+    <img src="images/obama8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="picture">
+ </div>
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obma5.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama6.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama7.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <img src="images/obama8.jpg" style="width:100%">
+    </div>
+
+
+    <a class="prev" onclick="plusSlides(-1)"><--</a>
+    <a class="next" onclick="plusSlides(1)">--></a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="images/obama1.jpg" style="width:100%" onclick="currentSlide(1)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/obama2.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/obama3.jpg" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/obama4.jpg" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+      <img class="demo cursor" src="images/obma5.jpg" style="width:100%" onclick="currentSlide(5)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/obama6.jpg" style="width:100%" onclick="currentSlide(6)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/obama7.jpg" style="width:100%" onclick="currentSlide(7)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/obama8.jpg" style="width:100%" onclick="currentSlide(8)" >
+    </div>
+  </div>
+</div>
+
+</section>
+
+      </div>
+
+      <button type="button" class="btn btn-info">Load more</button>
+
+      </form>
+
+
+
+<div>
+
+      <footer>
+      	<nav class="monarrive">
+      	  <ul>
+           <li><a href="https://www.instagram.com/about/us/">About Us</a></li>
+           <li><a href="https://help.instagram.com/">Support</a></li>
+           <li><a href="http://blog.instagram.com/">Blog</a></li>
+           <li><a href="https://instagram-press.com/">Press</a></li>
+           <li><a href="https://www.instagram.com/developer/">Api</a></li>
+           <li><a href="https://www.instagram.com/about/jobs/">Jobs</a></li>
+           <li><a href="https://help.instagram.com/155833707900388">Privacy</a></li>
+           <li><a href="https://help.instagram.com/478745558852511">Terms</a></li>
+          </ul>
+        </nav>
+
+      </footer>
+</div>
+
+
+</div>
+
+<script type="text/javascript" src="insta.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
